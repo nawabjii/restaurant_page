@@ -1,0 +1,125 @@
+figure.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align:center;
+    width: 135px;
+    height: 135px;
+    box-sizing: border-box;
+    border-radius:9px;
+    background-color: white;
+    
+}
+
+caption {
+    display: block;
+    padding: 1px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: rgb(248, 239, 239);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 20px 16px;
+    margin: 5px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+      text-decoration-line: line-through;
+    background-color: rgb(248, 246, 246);
+    color: #000;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(248, 246, 246);
+    color: white;
+  }
+  
+img{
+    border-radius:300px;
+    background-color: white;
+    
+    
+    width:100px;
+    height: 100px;
+    
+    
+    
+}
+h1{
+    box-sizing: border-box;
+    width: 90px;
+    margin-left: 20px;
+    font-size: xx-large;
+    
+   
+
+  
+}
+div{
+     background-color: rgb(248, 246, 246);
+     margin-left:25%;
+     padding:1px 16px;
+     height:1000px;
+
+}
+section{
+    background-color: rgb(248, 246, 246);
+}
+.text{
+    box-sizing: border-box;
+    margin: 90px 30px;
+    width: 480px;
+    font-size:  60px;
+    
+    
+}
+h3{
+    position: absolute;
+    box-sizing: border-box;
+    width:200px;
+    
+    
+    
+    margin:30px ;
+     
+    top: 90px;
+    right: 200px;
+    font-size: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+li a.passive{
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 90px;
+    background-color: red;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+hr{
+    display: block;
+    
+    border-color: red;
+    position: absolute;
+    
+    box-sizing: border-box;
+    border-width: 1.5px;
+    background-color: red;
+
+    width: 80px;
+    margin:80px ;
+    top: 100px;
+    right:270px;
+}
